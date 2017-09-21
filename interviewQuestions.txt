@@ -1,0 +1,194 @@
+                                       MySQL Baisc Interview Questions&Answers
+
+1.What is MySQL?
+Ans:MySQL is an open-source DBMS that is built, supported and distributed by MySQL AB. It is now owned by Oracle.
+
+2.Why do we use MySQL?
+Ans:MySQL database server is dependable, fast and user-friendly. One can download the software from the internet and as freeware.
+
+3.What is the default port for MySQL Server?
+Ans:The default port for MySQL server is 3306
+
+4.What is REGEXP?
+Ans:REGEXP is a pattern match in which matches pattern anywhere in the search value
+
+5.Differentiate between CHAR_LENGTH and LENGTH
+Ans:While CHAR_LENGTH is character count, the LENGTH is a byte count. The numbers are the different for Unicode and other encodings but the same for Latin characters.
+
+6.How can you see all the indexes defined for a table?
+Ans:You can define indexes for the table by:SHOW INDEX FROM <tablename>;
+
+7.How many columns can you use in creating Index?
+Ans:You can only create a maximum of 16 indexed columns for any standard table
+
+
+8)Differentiate between FLOAT and DOUBLE? 
+Ans:Following are differences for FLOAT and DOUBLE:
+• Floating point numbers are stored in FLOAT with eight place accuracy and it has four bytes.
+• Floating point numbers are stored in DOUBLE with accuracy of 18 places and it has eight bytes.
+
+9)Difference between CHAR and VARCHAR? 
+Ans:Following are the differences between CHAR and VARCHAR:
+•CHAR and VARCHAR types differ in storage and retrieval
+•CHAR column length is fixed to the length that is declared while creating table. The length value ranges from 1 and 255
+•When CHAR values are stored then they are right padded using spaces to specific length. Trailing spaces are removed when CHAR values are retrieved.
+
+10.Give string types available for column?
+The string types are:
+•SET
+•BLOB
+•ENUM
+•CHAR
+•TEXT
+•VARCHAR
+
+11)What are the different tables present in MySQL?
+Total 5 types of tables are present:
+•MyISAM
+•Heap
+•Merge
+•INNO DB
+•ISAM
+MyISAM is the default storage engine as of MySQL.
+
+12)What is the different between NOW() and CURRENT_DATE()?
+Ans:NOW () command is used to show current year,month,date with hours,minutes and seconds.
+CURRENT_DATE() shows current year,month and date only.
+
+
+13)What are the nonstandard string types?
+Following are Non-Standard string types:
+•TINYTEXT
+•TEXT
+•MEDIUMTEXT
+•LONGTEXT
+
+
+                                          Node.Js Interview Questions&Answers
+
+
+1)What is Node.js?
+Ans:Node.js is a very powerful JavaScript based platform or framework which is built on Google Chrome's JavaScript V8 Engine.										  
+
+2)Why to use Node.js?
+Ans:It is used to develop I/O intensive web applications like video streaming sites, single page applications (SPA) and other web applications. Node.js is open source and used by thousands of developers around the world.
+
+3)Who developed Node.js?
+Ans:Node.js was developed in 2009 by Ryan Dahl.
+
+4)What are the features of Node.js?
+Ans:Below are the features of Node.js –
+Very Fast
+Event driven and Asynchronous 
+Single Threaded but highly Scalable
+
+
+5) Explain REPL in Node.js?
+Ans:REPL stands for Read Eval Print Loop. Node.js comes with bundled REPL environment which performs the following desired tasks –
+Eval,Print,Loop,Read
+
+6)List out some REPL commands in Node.js?
+Ans:Below are the list of REPL commands –
+Ctrl + c - For terminating the current command.
+Ctrl + c twice – For terminating REPL.
+Ctrl + d - For terminating REPL.
+Tab Keys - list of all the current commands.
+.break - exit from multiline expression.
+.save with filename - save REPL session to a file.
+
+
+7)Explain NPM in Node.js?
+Ans:NPM stands for Node Package Manager (npm) and there are two functionalities which NPM takes care of mainly and they are –
+Online repositories for node.js modules or packages, which can be searched on search.nodejs.org
+Dependency Management, Version Management and command line utility for installing Node.js packages.
+
+
+11)Mention command to verify the NPM version in Node.js?
+Ans:–$ npm --version
+
+12)NodeJS is client side server side language?
+NodeJS is a runtime system, which is used for creating server-side applications.
+
+13)What you mean by JSON?
+JavaScript Object Notation (JSON) is a practical, compound, widely popular data exchange format. This will enable JavaScript developers to quickly construct APIs.
+
+14)Explain “Buffer class” in Node.JS?
+It is a global class which can be accessed in an application without importing buffer modules.
+
+15) How we can convert Buffer to JSON?
+Ans:buffer.toJSON()
+                                        
+										
+										Java Interview Questions&Answers
+
+
+1)What is the main difference between Java platform and other platforms?
+Ans:The Java platform differs from most other platforms in the sense that it's a software-based platform that runs on top of other hardware-based platforms.It has two components:
+Runtime Environment,
+API(Application Programming Interface)
+
+2)What is the default value of the local variables?
+Ans:The local variables are not initialized to any default value, neither primitives nor object references.										
+
+3)What are the various access specifiers for Java classes?
+Ans: In Java, access specifiers are the keywords used before a class name which defines the access scope. The types of access specifiers for classes are:
+a. Public : Class,Method,Field is accessible from anywhere.
+b. Protected:Method,Field can be accessed from the same class to which they belong or from the sub-classes,and from the class of same package,but not from outside.
+c. Default: Method,Field,class can be accessed only from the same package and not from outside of it’s native package.
+d. Private: Method,Field can be accessed from the same class to which they belong.
+
+4)Can main() method in Java can return any data?
+Ans: In java, main() method can’t return any data and hence, it’s always declared with a void return type.
+
+5)What is multi-threading?
+Ans: Multi threading is a programming concept to run multiple tasks in a concurrent manner within a single program. Threads share same process stack and running in parallel. It  helps  in performance improvement of any program.
+
+
+6)How objects are stored in Java?
+Ans: In java, each object when created gets a memory space from a heap. When an object is destroyed by a garbage collector, the space allocated to it from the heap is re-allocated to the heap and becomes available for any new objects.
+
+
+7)How can one prove that the array is not null but empty using one line of code?
+Ans:Print args.length. It will print 0. That means it is empty. But if it would have been null then it would have thrown a NullPointerException on attempting to print args.length.
+
+8)What is the difference between declaring a variable and defining a variable?
+Ans:In declaration we just mention the type of the variable and it's name. We do not initialize it. But defining means declaration + initialization.
+Example: String s; is just a declaration while String s = new String ("abcd"); Or String s = "abcd"; are both definitions.
+
+
+9)What is the difference between this() and super()?
+Ans:this() can be used to invoke a constructor of the same class whereas super() can be used to invoke a super class constructor.
+
+
+10)What is the purpose of Void class?
+Ans:The Void class is an uninstantiable placeholder class to hold a reference to the Class object representing the primitive Java type void.
+
+11)What is JSP?
+JSP is a technology that returns dynamic content to the Web client using HTML, XML and JAVA elements. JSP page looks like a HTML page but is a servlet. It contains Presentation logic and business logic of a web application.
+
+
+12)What is mutable object and immutable object?
+If a object value is changeable then we can call it as Mutable object. (Ex., StringBuffer, …) If you are not allowed to change the value of an object, it is immutable object. (Ex., String, Integer, Float, …)
+
+
+13)What is polymorphism in Java? What are the kinds of polymorphism?
+Ans:Polymorphism is the capability of an action or method to do different things based on the object acting upon.
+  - Two types of polymorphism:
+	1. Method polymorphism through overloading 
+	2. Object polymorphism by inheritance and interface
+	
+14)What is Garbage collector?
+Garbage collector is the process of automatically freeing objects that are no longer referenced by the program. It reduces a programmer's work from having to track when to free allocated memory. Java provides memory management through garbage collector.
+
+
+15)What is Hibernate?
+Ans:Hibernate is an ORM (Object Relational Mapping) and persistent framework. 
+- The framework helps to map plain java object to relational database table using xml configuration file.
+- The framework helps to perform following things.
+1. Perform basic CURD operations.
+2. Write queries referring to java classes (HQL queries).
+3. Facilities to specify metadata.
+4. Dirty checking, lazy association fetching.
+
+
+
